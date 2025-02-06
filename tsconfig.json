@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "node_modules"],
+    "skipLibCheck": true,
+    "jsx": "react-jsx", 
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}

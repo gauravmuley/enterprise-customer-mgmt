@@ -1,0 +1,76 @@
+{
+  "employees": [
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "position": "HR"
+    },
+    {
+      "name": "Gaurav",
+      "department": "gg",
+      "localNr": "222",
+      "landline": "222",
+      "mobile": "2222",
+      "email": "gggg",
+      "address": "ggg",
+      "language": "gg",
+      "id": 4
+    },
+    {
+      "name": "eeee",
+      "department": "",
+      "localNr": "ee",
+      "landline": "e",
+      "mobile": "",
+      "language": "e",
+      "email": "e",
+      "address": "",
+      "id": 5
+    },
+    {
+      "name": "e",
+      "department": "",
+      "localNr": "e",
+      "landline": "",
+      "mobile": "e",
+      "language": "",
+      "email": "",
+      "address": "e",
+      "id": 6
+    },
+    {
+      "name": "e",
+      "department": "g",
+      "localNr": "dd",
+      "landline": "",
+      "mobile": "e",
+      "language": "",
+      "email": "e",
+      "address": "",
+      "id": 7
+    },
+    {
+      "name": "gwefhdsfxb",
+      "department": "",
+      "localNr": "",
+      "landline": "",
+      "mobile": "cxvncbn ",
+      "language": "",
+      "email": "",
+      "address": "",
+      "id": 8
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Enterprise Corp",
+      "industry": "Finance"
+    },
+    {
+      "id": 2,
+      "name": "Tech Solutions",
+      "industry": "Technology"
+    }
+  ]
+}
