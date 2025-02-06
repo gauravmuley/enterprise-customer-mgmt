@@ -1,3 +1,5 @@
+# enterprise-data
+Enterprise Data POC
 # Enterprise Customer Management Website
 
 This project is a public website built with ReactJS, TypeScript, and Material UI for managing big enterprise customers. It allows customers to manage their employees' basic information.
@@ -18,11 +20,8 @@ This application provides a user-friendly interface for managing enterprise cust
     *   Search Bar.
     *   Website Navigation.
 *   **Mock API:** Uses JSON Server for API mocking. Data is persisted in `localStorage`.  The mock API is running at: `http://localhost:5000`
-*   **Frontend Security:** Implements basic authentication, XSS protection, CORS handling, error handling, and route protection.
-*   **Icons:** (List of icons and their sources - *add your icon sources here*)
-    *   Dashboard:  `<img src="icon_source_here" alt="Dashboard Icon" width="24" height="24">`
-    *   Users: `<img src="icon_source_here" alt="Users Icon" width="24" height="24">`
-    *   ... (Add all your icons)
+*   **Frontend Security:** Implemented basic authentication, XSS protection, CORS handling, error handling, and route protection.
+  
 
 ## Technologies Used
 
@@ -35,22 +34,22 @@ This application provides a user-friendly interface for managing enterprise cust
 
 ## Setup Instructions
 
-1.  Clone the repository: `git clone <repository_link>`
-2.  Navigate to the project directory: `cd <project_directory>`
-3.  Install dependencies: `npm install` or `yarn install`
-4.  Start the JSON Server mock API: `json-server --watch src/api/db.json --port 5000` (in a separate terminal)
-5.  Start the development server: `npm start` or `yarn start`
-6.  The application will be accessible at `http://localhost:3000`
+
+1.  Navigate to the project directory: `cd <project_directory>`
+2.  Install dependencies: `npm install` or `yarn install`
+3.  Start the JSON Server mock API: `json-server --watch src/api/db.json --port 5000` (in a separate terminal)
+4.  Start the development server: `npm start` or `yarn start`
+5.  The application will be accessible at `http://localhost:3000`
 
 ## Running the Demo
 
 1.  Make sure both the JSON server and the development server are running.
-2.  Open your browser and go to `http://localhost:3000`.
-3.  You can then interact with the application.
+2.  Username is `Test` and Password is `password`, this has been hardcoded for authentication and we dont have API as such.
+3.  Open your browser and go to `http://localhost:3000`.
+4.  You can then interact with the application.
 
 ## Notes
 
 *   **Test cases were not written as part of this assessment**, but all other required features are implemented.
-*   CI/CD and hosting are not part of this assessment.
-*   The icons used in the application might not be identical to the mockups, but they serve the same purpose.  **Please replace the `icon_source_here` placeholders with the actual paths or URLs to your icon files.**  If you're using Material UI icons, you can reference them as components (e.g., `<DashboardIcon />`) instead of using `<img>` tags.  Update the icon list accordingly.
+*   The icons used in the application might not be identical to the mockups, but they serve the same purpose.
 *   Remember to create the `db.json` file in the `src/api` directory with your mock data.  This file is used by JSON Server.
